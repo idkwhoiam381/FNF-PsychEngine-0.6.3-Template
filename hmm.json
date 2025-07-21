@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    {
+      "name": "discord_rpc",
+      "type": "git",
+      "ref": "master",
+      "url": "https://github.com/Aidan63/linc_discord-rpc"
+    },
+    {
+      "name": "linc_luajit",
+      "type": "git",
+      "ref": "main",
+      "url": "https://github.com/AliAlafandy/linc_luajit"
+    },
+    {
+      "name": "extension-androidtools",
+      "type": "git",
+      "ref": "main",
+      "url": "https://github.com/MAJigsaw77/extension-androidtools"
+    },
+    {
+      "name": "flixel",
+      "type": "haxelib",
+      "version": "5.2.2"
+    },
+    {
+      "name": "flixel-addons",
+      "type": "haxelib",
+      "version": "3.0.2"
+    },
+    {
+      "name": "flixel-ui",
+      "type": "haxelib",
+      "version": "2.5.0"
+    },
+    {
+      "name": "hscript",
+      "type": "haxelib",
+      "version": "2.5.0"
+    },
+    {
+      "name": "hxCodec",
+      "type": "git",
+      "ref": "main",
+      "url": "https://github.com/AliAlafandy/hxCodec"
+    },
+    {
+      "name": "lime",
+      "type": "git",
+      "ref": "main",
+      "url": "https://github.com/AliAlafandy/lime"
+    },
+    {
+      "name": "openfl",
+      "type": "haxelib",
+      "version": "9.2.1"
+    },
+    {
+      "name": "flixel-demos",
+      "type": "haxelib",
+      "version": "2.9.0"
+    },
+    {
+      "name": "flixel-templates",
+      "type": "haxelib",
+      "version": "2.6.6"
+    },
+    {
+      "name": "flixel-tools",
+      "type": "haxelib",
+      "version": "1.5.1"
+    },
+    {
+      "name": "lime-samples",
+      "type": "haxelib",
+      "version": "7.0.0"
+    }
+  ]
+}
