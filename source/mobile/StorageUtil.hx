@@ -149,7 +149,7 @@ class StorageUtil
 enum abstract StorageType(String) from String to String
 {
 	final forcedPath = '/storage/emulated/0/';
-	final packageNameLocal = 'com.shadowmario.psychengine063';
+	final packageNameLocal = 'com.yourname.psychengine';
 	final fileLocal = 'PsychEngine';
 
 	var EXTERNAL_DATA = "EXTERNAL_DATA";
@@ -163,7 +163,7 @@ enum abstract StorageType(String) from String to String
 		final EXTERNAL_DATA = AndroidContext.getExternalFilesDir();
 		final EXTERNAL_OBB = AndroidContext.getObbDir();
 		final EXTERNAL_MEDIA = AndroidEnvironment.getExternalStorageDirectory() + '/Android/media/' + lime.app.Application.current.meta.get('packageName');
-		final EXTERNAL = AndroidEnvironment.getExternalStorageDirectory() + '/.' + lime.app.Application.current.meta.get('file') + '0.6.3';
+		final EXTERNAL = AndroidEnvironment.getExternalStorageDirectory() + '/.' + lime.app.Application.current.meta.get('file');
 		final EXTERNAL_GLOBAL = AndroidEnvironment.getExternalStorageDirectory() + '/.' + lime.app.Application.current.meta.get('file');
 
 		return switch (str)
@@ -182,7 +182,7 @@ enum abstract StorageType(String) from String to String
 		final EXTERNAL_DATA = forcedPath + 'Android/data/' + packageNameLocal + '/files';
 		final EXTERNAL_OBB = forcedPath + 'Android/obb/' + packageNameLocal;
 		final EXTERNAL_MEDIA = forcedPath + 'Android/media/' + packageNameLocal;
-		final EXTERNAL = forcedPath + '.' + fileLocal + '0.6.3';
+		final EXTERNAL = forcedPath + '.' + fileLocal;
 		final EXTERNAL_GLOBAL = forcedPath + '.' + fileLocal;
 
 		return switch (str)
