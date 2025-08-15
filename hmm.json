@@ -69,11 +69,6 @@
       "name": "flixel-tools",
       "type": "haxelib",
       "version": "1.5.1"
-    },
-    {
-      "name": "lime-samples",
-      "type": "haxelib",
-      "version": "7.0.0"
     }
   ]
 }
