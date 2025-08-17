@@ -3,12 +3,14 @@
     {
       "name": "discord_rpc",
       "type": "git",
+      "dir": null,
       "ref": "master",
       "url": "https://github.com/Aidan63/linc_discord-rpc"
     },
     {
       "name": "linc_luajit",
       "type": "git",
+      "dir": null,
       "ref": "master",
       "url": "https://github.com/AliAlafandy/linc_luajit"
     },
@@ -35,19 +37,21 @@
     {
       "name": "hxCodec",
       "type": "git",
+      "dir": null,
       "ref": "main",
       "url": "https://github.com/AliAlafandy/hxCodec"
     },
     {
       "name": "lime",
       "type": "git",
+      "dir": null,
       "ref": "main",
       "url": "https://github.com/AliAlafandy/lime"
     },
     {
       "name": "openfl",
       "type": "haxelib",
-      "version": "9.2.1"
+      "version": "9.3.2"
     },
     {
       "name": "flixel-demos",
