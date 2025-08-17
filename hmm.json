@@ -13,12 +13,6 @@
       "url": "https://github.com/AliAlafandy/linc_luajit"
     },
     {
-      "name": "extension-androidtools",
-      "type": "git",
-      "ref": "main",
-      "url": "https://github.com/MAJigsaw77/extension-androidtools"
-    },
-    {
       "name": "flixel",
       "type": "haxelib",
       "version": "5.2.2"
