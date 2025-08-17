@@ -71,26 +71,11 @@
       "url": "https://github.com/AliAlafandy/linc_luajit"
     },
     {
-      "name": "flixel-demos",
-      "type": "haxelib",
-      "version": "2.9.0"
-    },
-    {
-      "name": "flixel-templates",
-      "type": "haxelib",
-      "version": "2.6.6"
-    },
-    {
       "name": "extension-androidtools",
       "type": "git",
       "dir": null,
       "ref": "main",
       "url": "https://github.com/MAJigsaw77/extension-androidtools"
-    },
-    {
-      "name": "lime-samples",
-      "type": "haxelib",
-      "version": "7.0.0"
     }
   ]
 }
